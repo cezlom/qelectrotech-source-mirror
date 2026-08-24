@@ -1,7 +1,35 @@
 *.snap
 .flatpak-builder
+
 # Qt build output
 *.user
+*.user.*
+.qmake.stash
+.qmake.cache
+/Makefile
+/qelectrotech
+moc_*.cpp
+moc_*.h
+moc_predefs.h
+ui_*.h
+qrc_*.cpp
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# CMake build output
+/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
 # doxygen Doxyfile output
 doc/*
 !doc/QElectroTech.qch
